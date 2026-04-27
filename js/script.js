@@ -100,11 +100,8 @@ document.getElementById('job-container').addEventListener('click', function(even
 });
 
 function upDateStat(){
-  // totalStat.innerText = allContainer.children.length;
-  // interviewStat.innerText =interviewContainer. children.length;
-  // rejectStat.innerText = rejectedContainer.children.length;
-
-   const counts = {
+ 
+      const counts = {
       all: allContainer.children.length,
       interview: interviewContainer. children.length,
       rejected: rejectedContainer.children.length,
